@@ -143,3 +143,18 @@ for (let i = 0; i < szamok.length; i++) {
 }
 
 console.log("Átlag alatti számok: " + atlagalatti);
+
+let autok = ["Mercedes", "BMW", "Audi", "Volvo", "Renault"];
+let autokreverse = autok.reverse();
+let autoksort = autok.sort();
+
+for (let i = 0; i < autok.length; i++) {
+    console.log(autok[i]);
+}
+for (let i = 0; i < autoksort.length; i++) {
+    console.log(autoksort[i]);
+}
+
+for (let i = 0; i < autokreverse.length; i++) {
+    console.log(autokreverse[i]);
+}
